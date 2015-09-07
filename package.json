@@ -28,7 +28,6 @@
   ],
   "dependencies": {
     "graceful-fs": "^4.1.2",
-    "resource-file": "^0.3.3",
     "task-registry-resource": "^0.1.0",
     "task-registry-template-engine": "^0.2.0",
     "util-ex": "^0.3.14"
@@ -47,7 +46,7 @@
     "istanbul": "^0.3.18",
     "mocha": "~2.1.0",
     "pre-commit": "~1.1.1",
-    "resource-file": "^0.3.2",
+    "resource-file": "^0.3.3",
     "rimraf": "~2.2.8",
     "shasum": "1.0.0",
     "sinon": "~1.16.1",
