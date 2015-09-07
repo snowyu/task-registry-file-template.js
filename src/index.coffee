@@ -28,15 +28,9 @@ module.exports  = class TemplateFileTask
 
   constructor: ->return super
 
-  getEngine: ->
-    result = @_engine
-    unless result
-      result = templateEngines.get()
-      @_engine = result
-    result
-
   _templateFilecallback: (aFile, done)->
     (err, contents)->
+      ### !pragma coverage-skip-next ###
       return done err if err
       vEngine = extend {}, aFile.engine
       vEngine.template = contents
