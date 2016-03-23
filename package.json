@@ -1,7 +1,7 @@
 {
   "name": "task-registry-file-template",
   "description": "Apply the configuration data to the file contents(treat it as the template).",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/snowyu/task-registry-file-template.js",
   "repository": {
     "type": "git",
