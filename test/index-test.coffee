@@ -14,6 +14,7 @@ fs              = require 'graceful-fs'
 require 'task-registry-template-engine-lodash'
 
 fs.cwd = process.cwd
+fs.path = require 'path.js'
 Resource.setFileSystem fs
 
 describe 'TemplateFileTask', ->
